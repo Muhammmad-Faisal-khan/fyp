@@ -1,0 +1,69 @@
+
+.CmsReset-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; 
+    /* Adjust the height as needed */
+  }
+  
+  .Y_line {
+    width: 150px; /* Adjust the width of the yellow lines */
+    height: 3px; /* Adjust the height of the yellow lines */
+    background-color: yellow;
+    margin: 0 20px; /* Adjust the margin between the lines and the text */
+  }
+
+
+  .Cms-message {
+    font-size: 50px; /* Adjust the font size of the welcome message */
+    font-family: Inria Serif;
+    color: blue;
+    margin-bottom: 20px;
+  }
+.Form-container{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.Rtext {
+  color: red;
+  font-size: 25px;
+  font-family: Inria Serif;
+  margin-bottom: 10px;
+} 
+.inputtt{
+  display: flex;
+    align-items: center;
+    margin: auto;
+    width: 450px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 6px;
+
+}
+.inputtt input{
+    margin-left: 20px;
+    background: transparent;
+    background: transparent;
+    border: none;
+ outline: none;
+ font-size: 19px;
+}
+
+.btncms{
+width: 100px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 20px;
+background: blue;
+font-size: larger;
+margin-top: 15px;
+color: #fff;
+cursor: pointer;
+}
+
+

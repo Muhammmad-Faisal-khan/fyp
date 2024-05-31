@@ -1,0 +1,60 @@
+
+/* App.css */
+
+.token-container {
+     display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 15vh; 
+  }
+  
+  .yelloww-line {
+    width: 150px; /* Adjust the width of the yellow lines */
+    height: 3px; /* Adjust the height of the yellow lines */
+    background-color: yellow;
+    margin: 0 20px; /* Adjust the margin between the lines and the text */
+    
+  }
+  
+  .token-message {
+    font-size: 30px; 
+    font-family: Inria Serif;
+    color: blue;
+  }
+  
+.TokenText{
+color: #000;
+font-family: Inria Serif;
+font-size: 30px;
+font-style: normal;
+/* font-weight: 700; */
+line-height: normal;
+}
+
+
+.centered-box-container {
+    display: flex;
+    margin-top: -60px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+  }
+  
+  .centered-box-content {
+    width: 340px;
+    height: 200px;
+    border: 2px solid blue;
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+  }
+  
+.Track {
+position: relative;
+font-family: Inria Serif;
+font-size: 25px;
+  bottom: 220px;
+  }
+  .Track span{
+    color:blue;
+  }

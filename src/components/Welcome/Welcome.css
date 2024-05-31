@@ -1,0 +1,72 @@
+
+/* App.css */
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh; /* Adjust the height as needed */
+  }
+  
+  .yellow-line {
+    width: 150px; /* Adjust the width of the yellow lines */
+    height: 3px; /* Adjust the height of the yellow lines */
+    background-color: yellow;
+    margin: 0 20px; /* Adjust the margin between the lines and the text */
+    
+  }
+  
+  .welcome-message {
+    font-size: 50px; /* Adjust the font size of the welcome message */
+    font-family: Inria Serif;
+    color: blue;
+  }
+  
+  
+.Queries{
+color: #000;
+font-family: Inria Serif;
+font-size: 50px;
+font-style: normal;
+/* font-weight: 700; */
+line-height: normal;
+}
+
+.s1{
+width: 200px;
+height: 50px;
+font-family: Inria Serif;
+/* flex-shrink: 0; */
+border-radius: 10px;
+padding-left: 20px;
+background: #85D0FA;
+box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 25px;
+/* font-weight:600; */
+margin:50px;
+margin-left: 10px;
+}
+
+.s2{
+width: 200px;
+height: 50px;
+/* flex-shrink: 0; */
+border-radius: 10px;
+padding-left: 20px;
+background: #85D0FA;
+box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 22px;
+/* font-weight:600; */
+margin-left: 10px;
+font-family: serif;
+}
+
+.styled-select {
+  width: 25%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 3px solid #2216a9;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

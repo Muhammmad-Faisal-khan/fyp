@@ -1,0 +1,84 @@
+
+.Ncorrection-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; 
+    /* Adjust the height as needed */
+  }
+  
+  .yellow-line {
+    width: 150px; /* Adjust the width of the yellow lines */
+    height: 3px; /* Adjust the height of the yellow lines */
+    background-color: yellow;
+    margin: 0 20px; /* Adjust the margin between the lines and the text */
+  }
+
+
+  .Ncorrection-message {
+    font-size: 50px; /* Adjust the font size of the welcome message */
+    font-family: Inria Serif;
+    color: blue;
+    margin-bottom: 20px;
+  }
+.F-container{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.Ntext {
+  color: red;
+  font-size: 25px;
+  font-family: Inria Serif;
+  margin-bottom: 10px;
+} 
+.inputt{
+   display: flex;
+    align-items: center;
+    margin: auto;
+    width: 450px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+
+.inputt input{
+  margin-left: 20px;
+  background: transparent;
+  background: transparent;
+  border: none;
+outline: none;
+font-size: 19px;
+}
+
+
+
+.btn{
+width: 100px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 20px;
+background: blue;
+font-size: larger;
+margin-top: 15px;
+color: #fff;
+cursor: pointer;
+}
+
+/* .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: #fff;
+  background: blue;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+} */

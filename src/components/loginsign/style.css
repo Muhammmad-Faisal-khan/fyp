@@ -1,0 +1,126 @@
+.top-section {
+  background-color:blue;
+  padding: 2px 3px;
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: center; /* Center elements horizontally */
+  align-items: center; /* Align vertically in the middle */
+  /* width: 1300px; */
+  height: 59px;
+  font-weight: 500;
+  border-radius: 9px;
+    color: white; /* Example text color */
+    /* Add other styling properties as needed */
+}
+
+.top-menu {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  list-style: none; /* Remove default list style */
+}
+
+.top-menu li {
+  display: inline-block; /* Inline elements for horizontal display */
+  margin-left: 80px; /* Add spacing between menu items (optional) */
+}
+
+.top-menu a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color for menu options */
+}
+
+.top-menu a:hover {
+  color: #bad7d0; /* Change color on hover for visual feedback */
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    height: 600px; ;
+    background:#e6e6e6 ;
+    padding-bottom: 30px;
+    border-radius: 50px;
+
+}
+.text{
+  color: blue;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline{
+  width:61px;
+  height: 6px;
+  background: blue;
+  border-radius: 9px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 40px;
+
+ position: relative;
+ bottom: 25px; /* Adjust this value as needed */ 
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: #fff;
+  background: blue;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 40px;
+}
+  
+  /* .form-group {
+    margin-bottom: 20px;
+  } */
+  
+  /* label {
+    display: block;
+    margin-bottom: 5px;
+  }
+   */
+input[type="namee"],
+  input[type="email"],
+  input[type="password"],
+  input[type="EmpID"],
+  input[type="CMS"]
+  {
+    border-radius: 20px;
+    gap: 30px;
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 30px;
+  }
+  
+  /* button {
+    width: 100%;
+    padding: 10px;
+    background-color: #45505d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  /* button:hover {
+    background-color: #0056b3;
+  }
+
+  p {
+    margin-top: 20px;
+    text-align: center;
+  } */
+  
